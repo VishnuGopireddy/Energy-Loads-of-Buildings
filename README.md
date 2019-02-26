@@ -15,11 +15,11 @@ Performed exploratory data analysis and find insights of the data.
   <li>A modular geometry system was derived based on an elementary cube (3.5 × 3.5 × 3.5m). In order to generate different building shapes, eighteen such elements were used according to Figure</li>
 
 
-<p><img src="dataset.png" width="220" height="240" /> </p>
+<p><img src="dataset.png" width="300" height="300" /> </p>
 
   <li> Then generated 12 structures with different shapes and Relative Compactness as shown in figure.</li>
 
-<p><img src="dataset1.png" width="220" height="240" /> </p>
+<p><img src="dataset1.png" width="300" height="300" /> </p>
   <li>
     <ul>
       <li> X1 - Relative Compactness </li>
@@ -33,14 +33,19 @@ Performed exploratory data analysis and find insights of the data.
     </ul>
   </li>
 
-  Each feature is described in the figure:
+<br>  Each feature is described in the figure:
   
-<p><img src="dataset3.png" width="220" height="240" /> </p>
+<p><img src="dataset3.png" width="300" height="300" /> </p>
   
 </ul>
 
 ### Dataset
 The raw data contains 768 rows each row represent a structure of the building. 8 Input Variables. Heating Load and Cooling load are our output variables.
+<br>
+<p>Dataset reference: https://people.maths.ox.ac.uk/tsanas/Preprints/ENB2012.pdf <p>
 
-
+### Splitting Dataset
+Since the dataset is a bit small to tain a MLP, splitted dataset into 5 fold CV. Where 4 folds are for training and one fold for testing. <br>
+Detailed explaination of 5 fold CV shown in image:
+<p><img src="5folcv.png" width="300" height="300" /> </p>
 
