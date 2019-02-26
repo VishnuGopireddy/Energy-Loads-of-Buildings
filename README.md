@@ -47,5 +47,43 @@ The raw data contains 768 rows each row represent a structure of the building. 8
 ### Splitting Dataset
 Since the dataset is a bit small to tain a MLP, splitted dataset into 5 fold CV. Where 4 folds are for training and one fold for testing. <br>
 Detailed explaination of 5 fold CV shown in image:
-<p><img src="5foldcv.png" width="300" height="300" /> </p>
+
+<p><img src="5foldcv.png" width="500" height="300" /> </p>
+
+## Dependencies
+<ol>
+  <li>jupyter notebook</li>
+  <li>python 3</li>
+  <li>numpy</li>
+  <li>matplotlib</li>
+  <li>seaborn</li>
+  <li>keras</li>
+  <li></li>
+  <li></li>
+
+  <li></li>
+
+</ol>
+
+## Feature Selection
+<ol>
+<li> From Domain Knowledge we removed relative index feature.
+<p> <img src = "rcformula.png" width = 300 height=100></p>
+Here, reference is common for all buildings, also volume of all buildings is same, so RC is inversly proportional to area.
+<br> So, Refractive Compactness(RC) can be removed
+<p>More about Refractive compactness and area 
+<br>  Reference : http://www.scielo.br/scielo.php?script=sci_arttext&pid=S1678-86212017000300103#e01<p>
+</li>
+<li> Filter Based
+    After Forward Feature Selection, these are important features
+<ol>
+  <li>Surface Area </li>
+  <li>Wall Area </li>
+  <li>Roof Area </li>
+  <li>Glazing Area </li>
+</ol>
+ </li>
+    
+    
+    
 
