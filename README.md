@@ -56,19 +56,16 @@ Detailed explaination of 5 fold CV shown in image:
   <li>python 3</li>
   <li>numpy</li>
   <li>matplotlib</li>
+  <li>pandas</li>
   <li>seaborn</li>
   <li>keras</li>
-  <li></li>
-  <li></li>
-
-  <li></li>
-
+  <li>scikit-learn</li>
 </ol>
 
 ## Feature Selection
 <ol>
 <li> From Domain Knowledge we removed relative index feature.
-<p> <img src = "rcformula.png" width = 300 height=100></p>
+<p> <img src = "rcformlua.png" width = 300 height=100></p>
 Here, reference is common for all buildings, also volume of all buildings is same, so RC is inversly proportional to area.
 <br> So, Refractive Compactness(RC) can be removed
 <p>More about Refractive compactness and area 
@@ -83,7 +80,10 @@ Here, reference is common for all buildings, also volume of all buildings is sam
   <li>Glazing Area </li>
 </ol>
  </li>
-    
-    
-    
+
+## Statistic Test
+Among several models performed stastical test to conclude best model by performing stastical test(t-test).
+1. Compare MLP with different hyperparameters with and without feature selection using t-test value on R^2 value. 
+2. This gives the statistical significance between different hyper parameters with and without feature selection. 
+3. Calculate t-statistic with 1% level of significance and 5+5-2 = 8 degree of freedom. T - statistic value at 8 degree of freedom and 1% level of significance is 2.896. 
 
