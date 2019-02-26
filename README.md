@@ -12,13 +12,11 @@ Performed exploratory data analysis and find insights of the data.
 <ul>
 <li>A modular geometry system was derived based on an elementary cube 
 (3.5 × 3.5 × 3.5m). In order to generate different building shapes, eighteen such elements were used according to Figure.</li>
-
 ![Alt Text](dataset.png)
 
 <li>Then generated 12 structures with different shapes and Relative Compactness as shown in figure</li>
 ![Alt Text](dataset1.png)
-</ul>
-
+<li>
 <ul>
 <li> X1 - Relative Compactness </li>
 <li> X2 - Surface Area</li>
@@ -28,9 +26,12 @@ Performed exploratory data analysis and find insights of the data.
 <li> X6 - Orientation </li>
 <li> X7 - Glazing Area  </li>
 <li> X8 - Glazing Area Distribution </li>
+  </li>
 </ul>
 Each feature is described in the figure
 ![Alt Text](dataset3.png)
+
+</ul>
 
 ### Dataset
 The raw data contains 768 rows each row represent a structure of the building. 8 Input Variables. Heating Load and Cooling load are our output variables.
