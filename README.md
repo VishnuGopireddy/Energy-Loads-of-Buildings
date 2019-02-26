@@ -47,5 +47,5 @@ The raw data contains 768 rows each row represent a structure of the building. 8
 ### Splitting Dataset
 Since the dataset is a bit small to tain a MLP, splitted dataset into 5 fold CV. Where 4 folds are for training and one fold for testing. <br>
 Detailed explaination of 5 fold CV shown in image:
-<p><img src="5folcv.png" width="300" height="300" /> </p>
+<p><img src="5foldcv.png" width="300" height="300" /> </p>
 
