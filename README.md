@@ -11,7 +11,7 @@ Performed exploratory data analysis and find insights of the data.
 
 ## Description
 
-<ul>
+<ol>
   <li>A modular geometry system was derived based on an elementary cube (3.5 × 3.5 × 3.5m). In order to generate different building shapes, eighteen such elements were used according to Figure</li>
 
 
@@ -37,7 +37,7 @@ Performed exploratory data analysis and find insights of the data.
   
 <p><img src="dataset3.png" width="300" height="300" /> </p>
   
-</ul>
+</ol>
 
 ### Dataset
 The raw data contains 768 rows each row represent a structure of the building. 8 Input Variables. Heating Load and Cooling load are our output variables.
